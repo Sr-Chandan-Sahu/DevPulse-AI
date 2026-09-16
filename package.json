@@ -1,0 +1,30 @@
+{
+  "name": "devpulse-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API Observability, Telemetry & Anomaly Detection Platform",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/web",
+    "test:web": "npm run test --workspace=apps/web",
+    "typecheck": "npm run typecheck --workspace=apps/web",
+    "lint": "npm run lint --workspace=apps/web"
+  },
+  "keywords": [
+    "observability",
+    "telemetry",
+    "distributed-tracing",
+    "anomaly-detection",
+    "ai",
+    "gemini",
+    "fastapi",
+    "react",
+    "flamegraph"
+  ],
+  "author": "DevPulse AI Team",
+  "license": "MIT"
+}
